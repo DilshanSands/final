@@ -288,7 +288,7 @@ body {
                         </ul>
                     </li>
                     {{-- # ======================================= # Users # ======================================= # --}}
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-users"></i>
                             <p> Users
@@ -303,9 +303,9 @@ body {
                                 </a>
                             </li>
                         </ul>
-                    </li>
+                    </li> --}}
                     {{-- # ======================================= # Training Packages # ======================================= # --}}
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a href="/" class="nav-link">
                             <i class="nav-icon fas fa-cubes"></i>
                             <p> Training Packages
@@ -338,12 +338,12 @@ body {
                                 </a>
                             </li>
                         </ul>
-                    </li>
+                    </li> --}}
                     {{-- # ======================================= # Training Session # ======================================= # --}}
                     <li class="nav-item">
                         <a href="pages/kanban.html" class="nav-link">
                             <i class="nav-icon fas fa-cube"></i>
-                            <p> Training Session
+                            <p> User
                                 <i class="fas fa-angle-left right"></i>
                             </p>
                         </a>
@@ -351,7 +351,7 @@ body {
                             <li class="nav-item">
                                 <a href="{{ route('TrainingSessions.listSessions') }}" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p> All Sessions </p>
+                                    <p> All User </p>
                                 </a>
                             </li>
                             <li class="nav-item">
